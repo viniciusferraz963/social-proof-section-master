@@ -63,97 +63,55 @@ p {
   margin-left: 7px;
 }
 
-.card1 {
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--Very-Dark-Magenta);
   margin: 20px;
   margin-bottom: 0px;
   padding: 30px;
   color: white;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card1-perfil {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.image-perfil {
-  position: absolute;
-  left: 13px;
-  border-radius: 50%;
-  width: 50px;
-  margin: 20px 40px;
-  border: 2px solid white;
-}
-
-.image-perfil2 {
-  position: absolute;
-  left: 13px;
-  bottom: -65px;
-  border-radius: 50%;
-  width: 50px;
-  margin: 20px 40px;
-  border: 2px solid white;
-}
-
-.image-perfil3 {
-  position: absolute;
-  left: 13px;
-  border-radius: 50%;
-  bottom: -265px;
-  width: 50px;
-  margin: 20px 40px;
-  border: 2px solid white;
-}
-
-.card-perfil-subtitulo {
-  color: var(--Soft-Pink);
-  font-weight: 400;
-  margin-top: 3px;
-}
-
-.card1-description {
-  margin-top: 30px;
-}
-
-.card2 {
-  background-color: var(--Very-Dark-Magenta);
-  margin: 20px;
-  padding: 30px;
-  color: white;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 0px;
-}
-
-.card2-description {
-  margin-top: 30px;
 }
 
 .card3 {
-  background-color: var(--Very-Dark-Magenta);
-  margin: 20px;
-  padding: 30px;
-  color: white;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-bottom: 15px;
 }
 
-.card3-description {
-  margin-top: 30px;
+.card-perfil,
+.card2-perfil,
+.card3-perfil {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
 }
+
+.image-perfil {
+  position: relative;
+  bottom: 7px;
+  border-radius: 50%;
+  width: 50px;
+  border: 2px solid white;
+}
+
+span {
+  color: var(--Soft-Pink);
+  font-weight: 400;
+}
+
 
 .attribution {
     font-size: 13px;
     text-align: center;
+    padding: 5px;
   }
 
   .attribution a {
